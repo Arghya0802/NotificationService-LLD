@@ -1,8 +1,8 @@
-public class NotificationEngine implements IObserver{
+public class NotificationEngineObserver implements IObserver{
     private final INotificationStrategy notificationStrategy;
     private int countOfStrategies;
      
-    NotificationEngine(INotificationStrategy notificationStrategy) {
+    NotificationEngineObserver(INotificationStrategy notificationStrategy) {
         this.notificationStrategy = notificationStrategy;
         countOfStrategies = 0 ;
     }

@@ -1,8 +1,8 @@
 // Decorator uses both 'is-a' and 'has-a' relationship 
-public abstract class NotificationDecorator implements INotification{
+public abstract class INotificationDecorator implements INotification{
     protected final INotification notification; // Composition
-    
-    NotificationDecorator(INotification notification) {
+
+    INotificationDecorator(INotification notification) {
         this.notification = notification;
     }
 

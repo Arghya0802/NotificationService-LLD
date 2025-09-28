@@ -1,4 +1,4 @@
- public class SignatureDecorator extends NotificationDecorator {
+ public class SignatureDecorator extends INotificationDecorator {
 
     SignatureDecorator(INotification notification){
         super(notification);
