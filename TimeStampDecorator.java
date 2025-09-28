@@ -1,7 +1,7 @@
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class TimeStampDecorator extends INotificationDecorator {
+public class TimeStampDecorator extends NotificationDecorator {
 
     TimeStampDecorator(INotification notification){
         super(notification);
